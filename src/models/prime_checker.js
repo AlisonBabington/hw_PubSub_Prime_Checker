@@ -1,16 +1,3 @@
-// form view
-//  publish
-//  number_submitted
-//
-// prime_checker
-// check_number
-// bindEvents
-//  subscribe -- number_submitted;
-//  publish -- result_calculated;
-//
-//  resultView
-//  subscribe -- result_calculated
-
 const PubSub = require('../helpers/pub_sub.js')
 
 const PrimeChecker = function () {

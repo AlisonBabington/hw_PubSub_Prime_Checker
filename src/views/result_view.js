@@ -14,10 +14,10 @@ ResultView.prototype.bindEvents = function () {
 ResultView.prototype.displayResult = function (inputResult) {
   const result = document.querySelector('#result');
   if (inputResult === true) {
-    result.textContent = `The number is a prime number!`
+    result.textContent = `This number is a prime number!`
   }
   else {
-    result.textContent = `The number is not a prime number!`
+    result.textContent = `Thsi number is not a prime number!`
   };
 };
 
