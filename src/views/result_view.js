@@ -17,7 +17,7 @@ ResultView.prototype.displayResult = function (inputResult) {
     result.textContent = `This number is a prime number!`
   }
   else {
-    result.textContent = `Thsi number is not a prime number!`
+    result.textContent = `This number is not a prime number!`
   };
 };
 
